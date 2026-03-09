@@ -1,0 +1,45 @@
+GRA-Ramanujan-Generator/
+├── README.md
+├── LICENSE
+├── requirements.txt
+├── .gitignore
+├── docs/
+│   ├── concept.md               # концепция GRA + Рамануджан
+│   ├── math_model.tex           # математическая формализация (LaTeX)
+│   ├── api_reference.md         # описание классов и функций
+│   └── tutorials/
+│       ├── quickstart.ipynb
+│       └── visualization_guide.md
+├── gra_ramanujan/
+│   ├── __init__.py
+│   ├── constants.py             # список констант (π, e, γ, ζ(2), ζ(3), каталан и т.д.)
+│   ├── agent.py                 # класс RamanujanAgent
+│   ├── universe.py              # класс GRAUniverse (управление популяцией)
+│   ├── projectors.py            # реализация проекторов P_G_l
+│   ├── foam.py                  # функции для вычисления пены Φ и функционала J
+│   ├── generation.py            # генерация формул (деревья, эволюция)
+│   ├── evaluation.py            # оценка точности, сложности, красоты
+│   ├── communication.py         # обмен формулами между агентами
+│   ├── visualization/
+│   │   ├── __init__.py
+│   │   ├── plots.py             # функции для построения графиков
+│   │   └── gallery.py           # генерация LaTeX-представлений лучших формул
+│   └── utils.py                  # вспомогательные функции
+├── experiments/
+│   ├── run_basic.py              # базовый запуск эволюции
+│   ├── run_multiconstant.py      # запуск с несколькими константами
+│   └── analyze_logs.py           # анализ логов и построение графиков
+├── tests/
+│   ├── test_agent.py
+│   ├── test_universe.py
+│   └── test_projectors.py
+├── data/
+│   ├── conjectures.csv           # логи формул
+│   ├── machines.csv              # логи агентов
+│   └── known_formulas/           # база известных формул (для сравнения)
+├── notebooks/
+│   ├── 01_introduction.ipynb
+│   └── 02_visualization.ipynb
+└── examples/
+    ├── simple_generation.py
+    └── advanced_config.py
