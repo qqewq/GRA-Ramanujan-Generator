@@ -1,3 +1,4 @@
+https://orcid.org/my-orcid?orcid=0009-0004-1872-1153
 https://doi.org/10.5281/zenodo.18932868
 # GRA-Ramanujan-Generator: Эволюционный синтез математических формул через многоуровневую GRA-обнулёнку
 
