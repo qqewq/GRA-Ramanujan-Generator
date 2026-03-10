@@ -1,3 +1,4 @@
+https://doi.org/10.5281/zenodo.18932868
 # GRA-Ramanujan-Generator: Эволюционный синтез математических формул через многоуровневую GRA-обнулёнку
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
